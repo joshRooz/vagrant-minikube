@@ -48,7 +48,6 @@
             name: docker.service
             enabled: yes
             state: started
-          notify: start runtime
 
       when: runtime == "docker"
 
